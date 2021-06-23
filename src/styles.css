@@ -38,3 +38,29 @@
   .p-1 {
     padding: 1px;
   }
+
+  .conteiner-small{
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  /* ========================== */
+
+  .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+
+  .row .col form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 20px;
+  }
+  form input{
+    width: 100%;
+    padding: 10px 5px;
+    outline: none;
+    border: solid 1px #CECECE;
+  }
